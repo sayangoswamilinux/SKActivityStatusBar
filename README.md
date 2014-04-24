@@ -1,3 +1,5 @@
+**SKActivityStatusBar - iOS Control**
+
 SKActivityStatusBar is an iOS Control that displays an activity wheel and a status text replaying the default iOS Status Bar which gives the user instant access to whats happening in the background.
 
 **How to use in your project**
