@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4BA46A1908EF3600E31F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BA4691908EF3600E31F59 /* Foundation.framework */; };
+		2D4BA46C1908EF3600E31F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BA46B1908EF3600E31F59 /* CoreGraphics.framework */; };
+		2D4BA46E1908EF3600E31F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BA46D1908EF3600E31F59 /* UIKit.framework */; };
+		2D4BA4741908EF3600E31F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA4721908EF3600E31F59 /* InfoPlist.strings */; };
+		2D4BA4761908EF3600E31F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA4751908EF3600E31F59 /* main.m */; };
+		2D4BA47A1908EF3600E31F59 /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA4791908EF3600E31F59 /* SKAppDelegate.m */; };
+		2D4BA47D1908EF3600E31F59 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA47B1908EF3600E31F59 /* Main_iPhone.storyboard */; };
+		2D4BA4801908EF3600E31F59 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA47E1908EF3600E31F59 /* Main_iPad.storyboard */; };
+		2D4BA4831908EF3600E31F59 /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA4821908EF3600E31F59 /* SKViewController.m */; };
+		2D4BA4851908EF3600E31F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA4841908EF3600E31F59 /* Images.xcassets */; };
+		2D4BA48C1908EF3600E31F59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BA48B1908EF3600E31F59 /* XCTest.framework */; };
+		2D4BA48D1908EF3600E31F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BA4691908EF3600E31F59 /* Foundation.framework */; };
+		2D4BA48E1908EF3600E31F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4BA46D1908EF3600E31F59 /* UIKit.framework */; };
+		2D4BA4961908EF3600E31F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA4941908EF3600E31F59 /* InfoPlist.strings */; };
+		2D4BA4981908EF3600E31F59 /* SKActivityStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA4971908EF3600E31F59 /* SKActivityStatusBarTests.m */; };
+		2D4BA4A81908F11700E31F59 /* SKActivityStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BA4A71908F11700E31F59 /* SKActivityStatusBar.m */; };
+		2D4BA4AC19095E9600E31F59 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA4AA19095E9600E31F59 /* button.png */; };
+		2D4BA4AD19095E9600E31F59 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4BA4AB19095E9600E31F59 /* button@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4BA48F1908EF3600E31F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4BA45E1908EF3500E31F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4BA4651908EF3600E31F59;
+			remoteInfo = SKActivityStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4BA4661908EF3600E31F59 /* SKActivityStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKActivityStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4BA4691908EF3600E31F59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D4BA46B1908EF3600E31F59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D4BA46D1908EF3600E31F59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D4BA4711908EF3600E31F59 /* SKActivityStatusBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKActivityStatusBar-Info.plist"; sourceTree = "<group>"; };
+		2D4BA4731908EF3600E31F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D4BA4751908EF3600E31F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D4BA4771908EF3600E31F59 /* SKActivityStatusBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKActivityStatusBar-Prefix.pch"; sourceTree = "<group>"; };
+		2D4BA4781908EF3600E31F59 /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		2D4BA4791908EF3600E31F59 /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		2D4BA47C1908EF3600E31F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2D4BA47F1908EF3600E31F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2D4BA4811908EF3600E31F59 /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
+		2D4BA4821908EF3600E31F59 /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		2D4BA4841908EF3600E31F59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D4BA48A1908EF3600E31F59 /* SKActivityStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKActivityStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4BA48B1908EF3600E31F59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2D4BA4931908EF3600E31F59 /* SKActivityStatusBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKActivityStatusBarTests-Info.plist"; sourceTree = "<group>"; };
+		2D4BA4951908EF3600E31F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D4BA4971908EF3600E31F59 /* SKActivityStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKActivityStatusBarTests.m; sourceTree = "<group>"; };
+		2D4BA4A61908F11700E31F59 /* SKActivityStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKActivityStatusBar.h; path = "SKActivityStatusBar Class/SKActivityStatusBar.h"; sourceTree = "<group>"; };
+		2D4BA4A71908F11700E31F59 /* SKActivityStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKActivityStatusBar.m; path = "SKActivityStatusBar Class/SKActivityStatusBar.m"; sourceTree = "<group>"; };
+		2D4BA4AA19095E9600E31F59 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		2D4BA4AB19095E9600E31F59 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4BA4631908EF3600E31F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BA46C1908EF3600E31F59 /* CoreGraphics.framework in Frameworks */,
+				2D4BA46E1908EF3600E31F59 /* UIKit.framework in Frameworks */,
+				2D4BA46A1908EF3600E31F59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4BA4871908EF3600E31F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BA48C1908EF3600E31F59 /* XCTest.framework in Frameworks */,
+				2D4BA48E1908EF3600E31F59 /* UIKit.framework in Frameworks */,
+				2D4BA48D1908EF3600E31F59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4BA45D1908EF3500E31F59 = {
+			isa = PBXGroup;
+			children = (
+				2D4BA46F1908EF3600E31F59 /* SKActivityStatusBar */,
+				2D4BA4911908EF3600E31F59 /* SKActivityStatusBarTests */,
+				2D4BA4681908EF3600E31F59 /* Frameworks */,
+				2D4BA4671908EF3600E31F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4BA4671908EF3600E31F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4661908EF3600E31F59 /* SKActivityStatusBar.app */,
+				2D4BA48A1908EF3600E31F59 /* SKActivityStatusBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4BA4681908EF3600E31F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4691908EF3600E31F59 /* Foundation.framework */,
+				2D4BA46B1908EF3600E31F59 /* CoreGraphics.framework */,
+				2D4BA46D1908EF3600E31F59 /* UIKit.framework */,
+				2D4BA48B1908EF3600E31F59 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4BA46F1908EF3600E31F59 /* SKActivityStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4A919095E6E00E31F59 /* Resources */,
+				2D4BA4A51908F01E00E31F59 /* SKActivityStatusBar Class */,
+				2D4BA4A31908EFF900E31F59 /* View Controllers */,
+				2D4BA4A21908EFE200E31F59 /* Storyboards */,
+				2D4BA4A11908EFCF00E31F59 /* App Delegate */,
+				2D4BA4841908EF3600E31F59 /* Images.xcassets */,
+				2D4BA4701908EF3600E31F59 /* Supporting Files */,
+			);
+			path = SKActivityStatusBar;
+			sourceTree = "<group>";
+		};
+		2D4BA4701908EF3600E31F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4711908EF3600E31F59 /* SKActivityStatusBar-Info.plist */,
+				2D4BA4721908EF3600E31F59 /* InfoPlist.strings */,
+				2D4BA4751908EF3600E31F59 /* main.m */,
+				2D4BA4771908EF3600E31F59 /* SKActivityStatusBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4BA4911908EF3600E31F59 /* SKActivityStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4971908EF3600E31F59 /* SKActivityStatusBarTests.m */,
+				2D4BA4921908EF3600E31F59 /* Supporting Files */,
+			);
+			path = SKActivityStatusBarTests;
+			sourceTree = "<group>";
+		};
+		2D4BA4921908EF3600E31F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4931908EF3600E31F59 /* SKActivityStatusBarTests-Info.plist */,
+				2D4BA4941908EF3600E31F59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4BA4A11908EFCF00E31F59 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4781908EF3600E31F59 /* SKAppDelegate.h */,
+				2D4BA4791908EF3600E31F59 /* SKAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		2D4BA4A21908EFE200E31F59 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA47B1908EF3600E31F59 /* Main_iPhone.storyboard */,
+				2D4BA47E1908EF3600E31F59 /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2D4BA4A31908EFF900E31F59 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4A41908F00A00E31F59 /* Main View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2D4BA4A41908F00A00E31F59 /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4811908EF3600E31F59 /* SKViewController.h */,
+				2D4BA4821908EF3600E31F59 /* SKViewController.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		2D4BA4A51908F01E00E31F59 /* SKActivityStatusBar Class */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4A61908F11700E31F59 /* SKActivityStatusBar.h */,
+				2D4BA4A71908F11700E31F59 /* SKActivityStatusBar.m */,
+			);
+			name = "SKActivityStatusBar Class";
+			sourceTree = "<group>";
+		};
+		2D4BA4A919095E6E00E31F59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BA4AA19095E9600E31F59 /* button.png */,
+				2D4BA4AB19095E9600E31F59 /* button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4BA4651908EF3600E31F59 /* SKActivityStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4BA49B1908EF3600E31F59 /* Build configuration list for PBXNativeTarget "SKActivityStatusBar" */;
+			buildPhases = (
+				2D4BA4621908EF3600E31F59 /* Sources */,
+				2D4BA4631908EF3600E31F59 /* Frameworks */,
+				2D4BA4641908EF3600E31F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKActivityStatusBar;
+			productName = SKActivityStatusBar;
+			productReference = 2D4BA4661908EF3600E31F59 /* SKActivityStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4BA4891908EF3600E31F59 /* SKActivityStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4BA49E1908EF3600E31F59 /* Build configuration list for PBXNativeTarget "SKActivityStatusBarTests" */;
+			buildPhases = (
+				2D4BA4861908EF3600E31F59 /* Sources */,
+				2D4BA4871908EF3600E31F59 /* Frameworks */,
+				2D4BA4881908EF3600E31F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4BA4901908EF3600E31F59 /* PBXTargetDependency */,
+			);
+			name = SKActivityStatusBarTests;
+			productName = SKActivityStatusBarTests;
+			productReference = 2D4BA48A1908EF3600E31F59 /* SKActivityStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4BA45E1908EF3500E31F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Karthik Sankar";
+				TargetAttributes = {
+					2D4BA4651908EF3600E31F59 = {
+						DevelopmentTeam = YE49LWMLM8;
+					};
+					2D4BA4891908EF3600E31F59 = {
+						TestTargetID = 2D4BA4651908EF3600E31F59;
+					};
+				};
+			};
+			buildConfigurationList = 2D4BA4611908EF3500E31F59 /* Build configuration list for PBXProject "SKActivityStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4BA45D1908EF3500E31F59;
+			productRefGroup = 2D4BA4671908EF3600E31F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4BA4651908EF3600E31F59 /* SKActivityStatusBar */,
+				2D4BA4891908EF3600E31F59 /* SKActivityStatusBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4BA4641908EF3600E31F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BA4801908EF3600E31F59 /* Main_iPad.storyboard in Resources */,
+				2D4BA4AC19095E9600E31F59 /* button.png in Resources */,
+				2D4BA4851908EF3600E31F59 /* Images.xcassets in Resources */,
+				2D4BA47D1908EF3600E31F59 /* Main_iPhone.storyboard in Resources */,
+				2D4BA4AD19095E9600E31F59 /* button@2x.png in Resources */,
+				2D4BA4741908EF3600E31F59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4BA4881908EF3600E31F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BA4961908EF3600E31F59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4BA4621908EF3600E31F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BA4A81908F11700E31F59 /* SKActivityStatusBar.m in Sources */,
+				2D4BA47A1908EF3600E31F59 /* SKAppDelegate.m in Sources */,
+				2D4BA4831908EF3600E31F59 /* SKViewController.m in Sources */,
+				2D4BA4761908EF3600E31F59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4BA4861908EF3600E31F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BA4981908EF3600E31F59 /* SKActivityStatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4BA4901908EF3600E31F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4BA4651908EF3600E31F59 /* SKActivityStatusBar */;
+			targetProxy = 2D4BA48F1908EF3600E31F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4BA4721908EF3600E31F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4BA4731908EF3600E31F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D4BA47B1908EF3600E31F59 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4BA47C1908EF3600E31F59 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4BA47E1908EF3600E31F59 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4BA47F1908EF3600E31F59 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4BA4941908EF3600E31F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4BA4951908EF3600E31F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4BA4991908EF3600E31F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4BA49A1908EF3600E31F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4BA49C1908EF3600E31F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKActivityStatusBar/SKActivityStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "SKActivityStatusBar/SKActivityStatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D4BA49D1908EF3600E31F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKActivityStatusBar/SKActivityStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "SKActivityStatusBar/SKActivityStatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D4BA49F1908EF3600E31F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKActivityStatusBar.app/SKActivityStatusBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKActivityStatusBar/SKActivityStatusBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SKActivityStatusBarTests/SKActivityStatusBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2D4BA4A01908EF3600E31F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKActivityStatusBar.app/SKActivityStatusBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKActivityStatusBar/SKActivityStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "SKActivityStatusBarTests/SKActivityStatusBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4BA4611908EF3500E31F59 /* Build configuration list for PBXProject "SKActivityStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4BA4991908EF3600E31F59 /* Debug */,
+				2D4BA49A1908EF3600E31F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4BA49B1908EF3600E31F59 /* Build configuration list for PBXNativeTarget "SKActivityStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4BA49C1908EF3600E31F59 /* Debug */,
+				2D4BA49D1908EF3600E31F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D4BA49E1908EF3600E31F59 /* Build configuration list for PBXNativeTarget "SKActivityStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4BA49F1908EF3600E31F59 /* Debug */,
+				2D4BA4A01908EF3600E31F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4BA45E1908EF3500E31F59 /* Project object */;
+}
